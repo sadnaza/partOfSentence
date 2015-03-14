@@ -1,0 +1,73 @@
+#main{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width:800px;
+    height: 600px;
+    margin-left: -400px;
+    margin-top: -300px;
+    box-shadow: 0 0 0 1px lightgray;
+}
+.StyleChecker{
+    position: absolute;
+    top: 500px;
+    width: 80px;
+    height: 80px;
+}
+#Style1{
+    background-color: red;
+    left: 100px;
+}
+#Style2{
+    background-color: green;
+    left: 200px;
+}
+#Style3{
+    background-color: blue;
+    left: 300px;
+}
+#Style4{
+    background-color: magenta;
+    left: 400px;
+}
+#Style5{
+    background-color: darkgoldenrod;
+    left: 500px;
+}
+p{
+    position: absolute;
+    left: 50%;
+    width: 700px;
+    margin-left: -350px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+.st1{
+    position: absolute;
+    height: 3px;
+    border-top: 3px solid black;
+}
+.st2{
+    position: absolute;
+    height: 3px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+.st3{
+    position: absolute;
+    height: 3px;
+    border-top: 3px dashed black;
+}
+.st4{
+    position: absolute;
+    height: 5px;
+    background-image: url("../pics/waves.png");
+    background-repeat: repeat-x;
+}
+.st5{
+    position: absolute;
+    height: 3px;
+    background-image: url("../pics/pun.png");
+    background-repeat: repeat-x;
+}
